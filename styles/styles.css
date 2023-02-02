@@ -32,11 +32,11 @@ body .box .box__svg-mobile1 {
   width: 240px;
   height: 240px;
   position: absolute;
-  bottom: 65vh;
+  bottom: 520px;
 }
 body .box .box__svg-mobile2 {
   position: absolute;
-  bottom: 65vh;
+  bottom: 520px;
 }
 body .box .box__svg-desktop1 {
   display: none;
