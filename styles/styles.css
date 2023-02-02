@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 12px;
+  font-family: "Kumbh Sans", sans-serif;
+  font-weight: 400;
+}
+
+body {
+  background: linear-gradient(hsl(273deg, 75%, 66%) 20%, hsl(240deg, 73%, 65%) 100%);
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+body .box {
+  background-color: hsl(0deg, 0%, 100%);
+  border-radius: 30px;
+  width: 365px;
+  height: 70vh;
+  margin: 21vh auto 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body .box .box__svg-mobile1 {
+  width: 240px;
+  height: 240px;
+  position: absolute;
+  bottom: 65vh;
+}
+body .box .box__svg-mobile2 {
+  position: absolute;
+  bottom: 65vh;
+}
+body .box .box__svg-desktop1 {
+  display: none;
+}
+body .box .box__svg-desktop2 {
+  display: none;
+}
+body .box .box__article {
+  padding: 30% 0 0 0;
+  height: 100%;
+  width: 88%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+body .box .box__article .box__text-header {
+  font-size: 2.4rem;
+  text-align: center;
+  color: hsl(240deg, 11%, 16%);
+}
+body .box .box__article .box__text-content {
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+body .box .box__article .box__text-content hr {
+  color: hsl(240deg, 5%, 91%);
+  padding: 0 5%;
+}
+body .box .box__article .box__text-content input {
+  display: none;
+}
+body .box .box__article .box__text-content .box__question {
+  font-weight: 400;
+  color: hsl(237deg, 12%, 33%);
+}
+body .box .box__article .box__text-content .box__arrow {
+  float: right;
+  margin: 6px 6px;
+}
+body .box .box__article .box__text-content .box__answer {
+  display: none;
+  color: hsl(240deg, 6%, 50%);
+  font-size: 1rem;
+  padding: 5% 0;
+}
+
+/*
+@media (max-width: 900px) {
+    //do Smth
+    body {
+        .box__svg-desktop1 {
+            display: none;
+        }
+        .box__svg-desktop2 {
+            display: none;
+        }
+    }
+}
+@media (min-width: 1000px) {
+    //do Smth
+    body {
+        .box {
+            flex-direction: row;
+            width: 1200px;
+            .box__svg-mobile1 {
+                display: none;
+            }
+            .box__svg-mobile2 {
+                display: none;
+            }
+            .box__svg-desktop2 {
+                display: none;
+            }
+            .box__article {
+                padding: 0;
+            }
+        }
+
+    }
+}*//*# sourceMappingURL=styles.css.map */
